@@ -25,7 +25,7 @@ var typeClasses = {
 
 
 $.ajax({
-  url: "http://services.vrt.be/traffic/events",
+  url: "https://services.vrt.be/traffic/events",
   type: "GET",
   beforeSend: function(xhr) {
     xhr.setRequestHeader('accept', 'application/vnd.traffic.vrt.be.events_1.0+json');
